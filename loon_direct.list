@@ -1,5 +1,4 @@
-rules:
-- IP-CIDR,10.0.0.0/24,家庭内网
+
 - DOMAIN-SUFFIX,analytics.plex.tv,DIRECT
 - DOMAIN,app.plex.tv,DIRECT
 - DOMAIN-SUFFIX,plex.tv,DIRECT
@@ -9,7 +8,7 @@ rules:
 - DOMAIN-SUFFIX,hdarea.co,DIRECT
 - DOMAIN-SUFFIX,hdsky.me,DIRECT
 - DOMAIN-SUFFIX,hdtime.org,DIRECT
-- DOMAIN-SUFFIX,m-team.cc,家庭内网
+- DOMAIN-SUFFIX,m-team.cc,DIRECT
 - DOMAIN-SUFFIX,ourbits.club,DIRECT
 - DOMAIN-SUFFIX,pttime.org,DIRECT
 - DOMAIN-SUFFIX,1ptba.com,DIRECT
