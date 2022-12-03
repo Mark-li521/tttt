@@ -31,6 +31,8 @@ function autoPost(ID) {
           $notification.post(ID, '不存在该TF', '已自动删除该APP_ID')
           resolve()
         } else {
+          console.log("url", testurl + ID)
+          console.log("headers", header)
           console.log(data + ' TestFlight data')
           let jsonData = JSON.parse(data)
           if (jsonData.data == null) {
