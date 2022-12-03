@@ -1,4 +1,3 @@
-console.log(1)
 !(async () => {
     ids = $persistentStore.read('APP_ID')
     if (ids == '') {
@@ -18,14 +17,16 @@ function autoPost(ID) {
     let testurl = 'https://testflight.apple.com/v3/accounts/' + Key + '/ru/'
     let request_url = {
         url: testurl + ID,
+        // url: 'http://127.0.0.1:8000',
         headers:
             {
-               'X-Session-Id': $persistentStore.read('session_id'),
-               'X-Session-Digest': $persistentStore.read('session_digest'),
-               'X-Request-Id': $persistentStore.read('request_id'),
+                'User-Agent': '',
+                'Host': 'testflight.apple.com',
+                'X-Session-Id': `${$persistentStore.read('session_id')}`,
+                'X-Session-Digest': `${$persistentStore.read('session_digest')}`,
+                'X-Request-Id': `${$persistentStore.read('request_id')}`,
             }
     }
-    console.log(request_url)
     return new Promise(function (resolve) {
         $httpClient.get(request_url, function (error, resp, data) {
             if (error === null) {
@@ -37,7 +38,6 @@ function autoPost(ID) {
                     $notification.post(ID, '不存在该TF', '已自动删除该APP_ID')
                     resolve()
                 } else {
-                    console.log(data + ' TestFlight data')
                     let jsonData = JSON.parse(data)
                     if (jsonData.data == null) {
                         console.log(ID + ' ' + jsonData.messages[0].message)
@@ -50,6 +50,8 @@ function autoPost(ID) {
                             url: testurl + ID + '/accept',
                             headers:
                                 {
+                                    'User-Agent': '',
+                                    'Host': 'testflight.apple.com',
                                     'X-Session-Id': `${$persistentStore.read('session_id')}`,
                                     'X-Session-Digest': `${$persistentStore.read('session_digest')}`,
                                     'X-Request-Id': `${$persistentStore.read('request_id')}`,
