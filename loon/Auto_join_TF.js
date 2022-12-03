@@ -40,6 +40,7 @@ function autoPost(ID) {
             resolve();
           } else {
             $httpClient.post({url: testurl + ID + '/accept',headers: header}, function(error, resp, body) {
+              console.log(body + ' TestFlight body')
               let jsonBody = JSON.parse(body)
               $notification.post(jsonBody.data.name, 'TestFlight加入成功', '')
               console.log(jsonBody.data.name + ' TestFlight加入成功')
