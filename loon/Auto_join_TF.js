@@ -20,6 +20,8 @@ function autoPost(ID) {
     'X-Session-Digest': `${$persistentStore.read('session_digest')}`,
     'X-Request-Id': `${$persistentStore.read('request_id')}`
   }
+  console.log(testurl + ID)
+  console.log(header)
   return new Promise(function(resolve) {
     $httpClient.get({url: testurl + ID,headers: header}, function(error, resp, data) {
       if (error === null) {
@@ -31,8 +33,6 @@ function autoPost(ID) {
           $notification.post(ID, '不存在该TF', '已自动删除该APP_ID')
           resolve()
         } else {
-          console.log("url", testurl + ID)
-          console.log("headers", header)
           console.log(data + ' TestFlight data')
           let jsonData = JSON.parse(data)
           if (jsonData.data == null) {
