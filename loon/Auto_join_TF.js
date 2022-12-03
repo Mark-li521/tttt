@@ -31,6 +31,7 @@ function autoPost(ID) {
           $notification.post(ID, '不存在该TF', '已自动删除该APP_ID')
           resolve()
         } else {
+          console.log(data + ' TestFlight data')
           let jsonData = JSON.parse(data)
           if (jsonData.data == null) {
             console.log(ID + ' ' + jsonData.messages[0].message)
@@ -40,7 +41,6 @@ function autoPost(ID) {
             resolve();
           } else {
             $httpClient.post({url: testurl + ID + '/accept',headers: header}, function(error, resp, body) {
-              console.log(body + ' TestFlight body')
               let jsonBody = JSON.parse(body)
               $notification.post(jsonBody.data.name, 'TestFlight加入成功', '')
               console.log(jsonBody.data.name + ' TestFlight加入成功')
