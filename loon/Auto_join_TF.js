@@ -19,12 +19,11 @@ function autoPost(ID) {
     'X-Session-Id': `${$persistentStore.read('session_id')}`,
     'X-Session-Digest': `${$persistentStore.read('session_digest')}`,
     'X-Request-Id': `${$persistentStore.read('request_id')}`,
-    'content-type': 'application/json',
   }
   console.log(testurl + ID)
   console.log(header)
   return new Promise(function(resolve) {
-    $httpClient.get({url: testurl + ID,headers: header}, function(error, resp, data) {
+    $httpClient.get({url: testurl + ID,header: header}, function(error, resp, data) {
       if (error === null) {
         if (resp.status == 404) {
           ids = $persistentStore.read('APP_ID').split(',')
@@ -43,7 +42,7 @@ function autoPost(ID) {
             console.log(ID + ' ' + jsonData.data.message)
             resolve();
           } else {
-            $httpClient.post({url: testurl + ID + '/accept',headers: header}, function(error, resp, body) {
+            $httpClient.post({url: testurl + ID + '/accept',header: header}, function(error, resp, body) {
               console.log(data + ' TestFlight data')
               let jsonBody = JSON.parse(body)
               $notification.post(jsonBody.data.name, 'TestFlight加入成功', '')
