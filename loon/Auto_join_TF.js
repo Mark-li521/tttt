@@ -18,7 +18,8 @@ function autoPost(ID) {
   let header = {
     'X-Session-Id': `${$persistentStore.read('session_id')}`,
     'X-Session-Digest': `${$persistentStore.read('session_digest')}`,
-    'X-Request-Id': `${$persistentStore.read('request_id')}`
+    'X-Request-Id': `${$persistentStore.read('request_id')}`,
+    'content-type': 'application/json',
   }
   console.log(testurl + ID)
   console.log(header)
