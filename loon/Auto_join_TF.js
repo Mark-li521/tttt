@@ -18,11 +18,11 @@ function autoPost(ID) {
     let testurl = 'https://testflight.apple.com/v3/accounts/' + Key + '/ru/'
     let request_url = {
         url: testurl + ID,
-        header:
+        headers:
             {
-               'X-Session-Id': `${$persistentStore.read('session_id')}`,
-               'X-Session-Digest': `${$persistentStore.read('session_digest')}`,
-               'X-Request-Id': `${$persistentStore.read('request_id')}`,
+               'X-Session-Id': $persistentStore.read('session_id'),
+               'X-Session-Digest': $persistentStore.read('session_digest'),
+               'X-Request-Id': $persistentStore.read('request_id'),
             }
     }
     console.log(request_url)
@@ -48,7 +48,7 @@ function autoPost(ID) {
                     } else {
                         let accept_url = {
                             url: testurl + ID + '/accept',
-                            header:
+                            headers:
                                 {
                                     'X-Session-Id': `${$persistentStore.read('session_id')}`,
                                     'X-Session-Digest': `${$persistentStore.read('session_digest')}`,
