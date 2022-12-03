@@ -24,8 +24,7 @@ function autoPost(ID) {
                 'X-Request-Id': `${$persistentStore.read('request_id')}`,
             }
     }
-    console.log(testurl + ID)
-    console.log(header)
+    console.log(request_url)
     return new Promise(function (resolve) {
         $httpClient.get(request_url, function (error, resp, data) {
             if (error === null) {
