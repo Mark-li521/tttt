@@ -34,8 +34,8 @@ function autoPost(ID) {
                     ids = $persistentStore.read('APP_ID').split(',')
                     ids = ids.filter(ids => ids !== ID)
                     $persistentStore.write(ids.toString(), 'APP_ID')
-                    console.log(ID + ' ' + '不存在该TF，已自动删除该APP_ID')
-                    $notification.post(ID, '不存在该TF', '已自动删除该APP_ID')
+                    //console.log(ID + ' ' + '不存在该TF，已自动删除该APP_ID')
+                    //$notification.post(ID, '不存在该TF', '已自动删除该APP_ID')
                     resolve()
                 } else {
                     let jsonData = JSON.parse(data)
