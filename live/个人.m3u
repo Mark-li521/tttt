@@ -1,0 +1,49 @@
+#EXTM3U
+#EXT-X-APP APTV
+#EXT-X-APTV-TYPE local
+
+#EXTINF:-1 tvg-name="咪咕体育-4K-HLG源" tvg-logo="http://live.aptvapp.com/live/logo/咪咕体育.png" group-title="4K频道",咪咕体育-4K-HLG源
+http://39.135.41.243/PLTV/88888888/224/3221226716/index.m3u8?hls
+#EXTINF:-1 group-title="体育频道",CCTV5-高清(1)
+http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8?
+#EXTINF:-1 group-title="4K频道",Fashion4K
+https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="http://live.aptvapp.com/live/logo/CCTV5.png" group-title="央视",CCTV5
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225752/2/index.m3u8
+#EXTINF:-1 tvg-id="CCTV4k" tvg-name="CCTV4k" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV4k" group-title="IPV6",CCTV4K 「IPV6」
+http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226998/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178&type=IPv6
+#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视",CCTV16
+http://www.markc.top:8887/rtp/239.49.9.59:6000
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1069/68/495b16b192deec93f5dbe6a6910367_180_135.jpg?1589663752" group-title="王者荣耀",韩涵TuT
+http://live.aptvapp.com/live/huya/774810
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1069/5a/80475bf4f9cd261eb51d3328134197_180_135.jpg?1627324296" group-title="王者荣耀",灵石丶小锦儿
+http://live.aptvapp.com/live/huya/813749
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1061/2a/6dedd1e4f382c255f6c87be99f126e_180_135.jpg?0" group-title="王者荣耀",空伐Void
+http://live.aptvapp.com/live/huya/960427
+#EXTINF:-1 group-title="未分类",昔恩小姐姐
+http://live.aptvapp.com/live/douyu/6301433
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1022/b2/e8912a2db2732da0e3cab0507054cf_180_135.jpg?1648573355" group-title="王者荣耀",LING-灵儿
+http://live.aptvapp.com/live/huya/238197
+#EXTINF:-1 group-title="未分类",芜湖大司马丶
+http://live.aptvapp.com/live/douyu/606118
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1061/16/18c71ff9f2e2355585ffe55421cd6d_180_135.jpg?1655044803" group-title="王者荣耀",诺米-鱼神【木兰导师】
+http://live.aptvapp.com/live/huya/318365
+#EXTINF:-1 group-title="未分类",一条小团团OvO
+http://live.aptvapp.com/live/douyu/2222
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1009/8c/59e8dc66695ef7bd3bf8622731d8d6_180_135.jpg?1656854110" group-title="王者荣耀",颜色-青帝
+http://live.aptvapp.com/live/huya/883174
+#EXTINF:-1 group-title="未分类",诺米-晨琳
+http://live.aptvapp.com/live/huya/149734
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202110/84616b06512c4e2bad81c37d8d3e3db8_middle.jpg" group-title="热门游戏",呆妹儿小霸王
+http://live.aptvapp.com/live/douyu/2947432
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202103/43d8d2e1e8834007831d8e8e3bead897_middle.jpg" group-title="CS:GO",Big茄子
+http://live.aptvapp.com/live/douyu/9418
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202110/1a0fa314c0f44fc2aff1c14e3329b629_middle.jpg" group-title="英雄联盟",不2不叫周淑怡
+http://live.aptvapp.com/live/douyu/290935
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1073/f7/5d111b33a50f1d18c09d854a4436ff_180_135.jpg?1649483573" group-title="未分类",童锦程【798】
+http://live.aptvapp.com/live/huya/527988
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1052/f4/a655cf959083ab1fd310126568d96f_180_135.jpg?1686077997&468493" group-title="王者荣耀",三峡-绪雪
+http://live.aptvapp.com/live/huya/28661331
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1060/9c/a629ccfc39088ba32965f5c43c3c49_180_135.jpg?1682104003&468494" group-title="王者荣耀",诺米-澈澈
+http://live.aptvapp.com/live/huya/634126
+
