@@ -14,5 +14,5 @@
     "Search": false,
     "name": "javdb",
     "api": "http://www.markc.top:50500/api.php/provide/vod/at/xml"
-  },
+  }
 ]
