@@ -1,18 +1,12 @@
 
 [
   {
-    "id": "db335b83-39a7-4f41-af9c-d2bf59d6b821",
+    "id": "be0c5387-a67c-474b-bda4-e17d62c4c916",
     "Top": true,
     "note": "需要海外 IP 觀看",
     "Search": true,
     "Block": true,
     "name": "海外看資源",
     "api": "https://haiwaikan.com/api.php/provide/vod/at/xml"
-  },
-  {
-    "id": "9c6e10da-b6dd-4831-a2ec-6c27f99f5524",
-    "Search": false,
-    "name": "javdb",
-    "api": "http://www.markc.top:50500/api.php/provide/vod/at/xml"
   }
 ]
