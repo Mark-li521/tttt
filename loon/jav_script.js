@@ -14,22 +14,6 @@
     $done()
 })();
 
-async function checkAndUpdatePersistentStore() {
-    let previousValue = await $persistentStore.read(['jav_login']);
-
-    setInterval(async () => {
-        try {
-            const currentValue = await $persistentStore.read(['aaa']);
-            
-            if (currentValue !== previousValue) {
-                
-            }
-        } catch (error) {
-            console.error('Error checking or updating persistent store:', error);
-        }
-    }, 1000); // 每秒检查一次
-}
-
 async function callApi() {
     try {
         let previousValue = await $persistentStore.read(['jav_login']);
