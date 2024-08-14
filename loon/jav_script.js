@@ -13,10 +13,10 @@ if (previousValue == currentValue) {
 }
 $done()
 
-function callApi() {
+async function callApi() {
     try {
-        let previousValue = $persistentStore.read(['jav_login']);
-        const response = fetch('https://vod.markc.top:58588/get_login' + previousValue, {
+        let previousValue = await $persistentStore.read(['jav_login']);
+        const response = await fetch('https://vod.markc.top:58588/get_login' + previousValue, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -27,9 +27,9 @@ function callApi() {
             throw new Error('Network response was not ok');
         }
 
-        const data = response.json();
-        console.log('API response:', data);
+        const data = await response.json();
+        $notification.post('API response', JSON.stringify(data)); // 使用 $notification.post 记录响应
     } catch (error) {
-        console.log('Error calling API:', error);
+        $notification.post('Error calling API', error.message); // 使用 $notification.post 记录错误
     }
 }
