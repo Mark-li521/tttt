@@ -1,18 +1,20 @@
-
-let headers = $request.headers;
-let currentValue = "?authorization=" + headers['Proxy-Authorization'] + "&jdsignature=" + headers['jdsignature'];
-let previousValue = $persistentStore.read(['jav_login']);
-if (previousValue == currentValue) {
-    $notification.post('无需修改', '');
-} else {
-    // 值发生变化，写入新值
-    await $persistentStore.write(['jav_login'], currentValue);
-    previousValue = currentValue;
-    // 调用接口
-    await callApi();
+try {
+    let headers = $request.headers;
+    let currentValue = "?authorization=" + headers['Proxy-Authorization'] + "&jdsignature=" + headers['jdsignature'];
+    let previousValue = $persistentStore.read(['jav_login']);
+    if (previousValue == currentValue) {
+        $notification.post('无需修改', '');
+    } else {
+        // 值发生变化，写入新值
+        await $persistentStore.write(['jav_login'], currentValue);
+        previousValue = currentValue;
+        // 调用接口
+        await callApi();
+    }
+    $done()
+} catch (error) {
+    $notification.post('Error calling API', error.message); // 使用 $notification.post 记录错误
 }
-$done()
-
 async function callApi() {
     try {
         let previousValue = await $persistentStore.read(['jav_login']);
