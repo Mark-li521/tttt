@@ -30,6 +30,6 @@ function callApi() {
         const data = response.json();
         console.log('API response:', data);
     } catch (error) {
-        console.error('Error calling API:', error);
+        console.log('Error calling API:', error);
     }
 }
