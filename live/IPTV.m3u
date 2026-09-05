@@ -39,23 +39,23 @@ https://rtp.markc.top:58588/rtp/239.49.8.52:9810?fcc=180.100.72.185:15970
 https://rtp.markc.top:58588/rtp/239.49.0.82:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000234408174/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",中国天气
 https://rtp.markc.top:58588/rtp/239.49.0.94:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238866524/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="29",江苏卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238866524/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="29",江苏卫视
 https://rtp.markc.top:58588/rtp/239.49.1.62:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000236887659/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="30",北京卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000236887659/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="30",北京卫视
 https://rtp.markc.top:58588/rtp/239.49.0.253:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595557/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="31",东方卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595557/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="31",东方卫视
 https://rtp.markc.top:58588/rtp/239.49.1.69:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595112/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="28",浙江卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595112/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="28",浙江卫视
 https://rtp.markc.top:58588/rtp/239.49.1.63:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595561/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="38",山东卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595561/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="38",山东卫视
 https://rtp.markc.top:58588/rtp/239.49.1.71:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238059928/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="33",广东卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238059928/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="33",广东卫视
 https://rtp.markc.top:58588/rtp/239.49.1.26:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238060188/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="34",深圳卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238060188/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="34",深圳卫视
 https://rtp.markc.top:58588/rtp/239.49.1.28:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595368/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="56",四川卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595368/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="56",四川卫视
 https://rtp.markc.top:58588/rtp/239.49.1.65:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595494/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="27",湖南卫视 4K
+#EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595494/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}", tvg-id="27",湖南卫视
 https://rtp.markc.top:58588/rtp/239.49.1.67:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000003450360000008354987/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",天津卫视
 https://rtp.markc.top:58588/rtp/239.49.8.35:8620?fcc=180.100.72.185:15970
@@ -282,7 +282,7 @@ https://rtp.markc.top:58588/rtp/239.49.8.124:8000?fcc=180.100.72.185:15970
 https://rtp.markc.top:58588/rtp/239.49.0.110:9014?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="37" tvg-name="优购物" group-title="购物",优购物
 https://rtp.markc.top:58588/rtp/239.49.0.84:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="41" tvg-name="财富天下HD" group-title="其他",财富天下HD
+#EXTINF:-1 tvg-id="41" tvg-name="财富天下" group-title="其他",财富天下
 https://rtp.markc.top:58588/rtp/239.49.1.76:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="CETV", catchup="append" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000003000000000161874/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CETV-2
 https://rtp.markc.top:58588/rtp/239.49.0.72:8568?fcc=180.100.72.185:15970
@@ -316,17 +316,17 @@ https://rtp.markc.top:58588/rtp/239.49.1.94:8000?fcc=180.100.72.185:15970
 https://rtp.markc.top:58588/rtp/239.49.1.95:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="832" tvg-name="4K跨年直播2" group-title="超高清",4K跨年直播2
 https://rtp.markc.top:58588/rtp/239.49.8.82:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="998" tvg-name="家有购物HD" group-title="购物",家有购物HD
+#EXTINF:-1 tvg-id="998" tvg-name="家有购物" group-title="购物",家有购物
 https://rtp.markc.top:58588/rtp/239.49.0.87:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="390" tvg-name="多机位4" group-title="其他",多机位4
 https://rtp.markc.top:58588/rtp/239.49.8.68:9380
 #EXTINF:-1 tvg-id="26" tvg-name="好享购物" group-title="江苏" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000000003000000512494?citycode=0002&Playtype=1&programid=ch00000000000000000215&contentid=ch00000000000000000215&videoid=ch10031911113204553430&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",好享购物
 https://rtp.markc.top:58588/rtp/239.49.0.103:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="999" tvg-name="优购物HD" group-title="购物",优购物HD
+#EXTINF:-1 tvg-id="999" tvg-name="优购物" group-title="购物",优购物
 https://rtp.markc.top:58588/rtp/239.49.0.85:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="393" tvg-name="多机位7" group-title="其他",多机位7
 https://rtp.markc.top:58588/rtp/239.49.0.191:8000
-#EXTINF:-1 tvg-id="981" tvg-name="央广购物HD" group-title="购物",央广购物HD
+#EXTINF:-1 tvg-id="981" tvg-name="央广购物" group-title="购物",央广购物
 https://rtp.markc.top:58588/rtp/239.49.0.39:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="954" tvg-name="多画面导航" group-title="其他",多画面导航
 https://rtp.markc.top:58588/rtp/239.49.8.73:8000
