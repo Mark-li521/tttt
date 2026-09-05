@@ -34,7 +34,7 @@ https://rtp.markc.top:58588/rtp/239.49.0.128:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000214607844/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV-16
 https://rtp.markc.top:58588/rtp/239.49.0.109:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000003101164000012435106/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV-17
-https://rtp.markc.top:58588/rtp/239.49.8.52:9810?fcc=180.100.72.185:15970
+https://rtp.markc.top:58588/rtp/239.49.0.7:8048?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000230656196/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV-4K
 https://rtp.markc.top:58588/rtp/239.49.0.82:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000234408174/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",中国天气
@@ -264,12 +264,6 @@ https://rtp.markc.top:58588/rtp/239.49.1.30:8000?fcc=180.100.72.185:15970
 
 
 # ===== 以下为 kunshanIPTV.txt 中 IPTV.txt 缺少的频道 =====
-#EXTINF:-1 tvg-id="13" tvg-name="CCTV新闻" group-title="央视" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000003000000000161816?citycode=0002&Playtype=1&programid=ch00000000000000000054&contentid=ch00000000000000000054&videoid=ch09051005540271366243&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV新闻
-https://rtp.markc.top:58588/rtp/239.49.0.13:8096?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV少儿" group-title="央视" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000003000000000161817?citycode=0002&Playtype=1&programid=ch00000000000000000019&contentid=ch00000000000000000019&videoid=ch09050914412868583181&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV少儿
-https://rtp.markc.top:58588/rtp/239.49.0.14:8104?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV音乐" group-title="央视" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000003000000000161818?citycode=0002&Playtype=1&programid=ch00000000000000000020&contentid=ch00000000000000000020&videoid=ch09050914423548566496&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV音乐
-https://rtp.markc.top:58588/rtp/239.49.0.15:8112?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="16" tvg-name="CGTN" group-title="央视" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000003000000000161812?citycode=0002&Playtype=1&programid=ch00000000000000000014&contentid=ch00000000000000000014&videoid=ch09050914371260261621&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CGTN
 https://rtp.markc.top:58588/rtp/239.49.0.9:8064?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" group-title="央视" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000003000000000161810?citycode=0002&Playtype=1&programid=ch00000000000000000131&contentid=ch00000000000000000131&videoid=ch09051013542484289357&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV17
@@ -290,8 +284,6 @@ https://rtp.markc.top:58588/rtp/239.49.0.72:8568?fcc=180.100.72.185:15970
 https://rtp.markc.top:58588/rtp/239.49.1.82:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="269" tvg-name="书画频道" group-title="其他" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000009108553000016840503?citycode=0002&Playtype=1&programid=ch00000000000000000479&contentid=ch00000000000000000479&videoid=ch17040922122518743768&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",书画频道
 https://rtp.markc.top:58588/rtp/239.49.0.123:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="270" tvg-name="陕西卫视" group-title="卫视" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000004809461000114688138?citycode=0002&Playtype=1&programid=ch00000000000000000518&contentid=ch00000000000000000518&videoid=ch18062110571351253035&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",陕西卫视
-https://rtp.markc.top:58588/rtp/239.49.0.233:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="389" tvg-name="慢直播" group-title="其他",慢直播
 https://rtp.markc.top:58588/rtp/239.49.8.67:9376?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="600" tvg-name="江苏新闻广播" group-title="江苏" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000000000000244136332?citycode=0002&Playtype=1&programid=11CHANcp000011260313000244136331&contentid=11CHANcp000011260313000244136331&videoid=01000000000000000000000244136332&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",江苏新闻广播
@@ -315,17 +307,6 @@ https://rtp.markc.top:58588/rtp/239.49.1.94:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="609" tvg-name="江苏健康广播" group-title="江苏" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000000000000244138808?citycode=0002&Playtype=1&programid=11CHANcp000011260313000244138807&contentid=11CHANcp000011260313000244138807&videoid=01000000000000000000000244138808&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",江苏健康广播
 https://rtp.markc.top:58588/rtp/239.49.1.95:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="832" tvg-name="4K跨年直播2" group-title="超高清",4K跨年直播2
-https://rtp.markc.top:58588/rtp/239.49.8.82:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="998" tvg-name="家有购物" group-title="购物",家有购物
-https://rtp.markc.top:58588/rtp/239.49.0.87:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="390" tvg-name="多机位4" group-title="其他",多机位4
-https://rtp.markc.top:58588/rtp/239.49.8.68:9380
-#EXTINF:-1 tvg-id="26" tvg-name="好享购物" group-title="江苏" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000000000003000000512494?citycode=0002&Playtype=1&programid=ch00000000000000000215&contentid=ch00000000000000000215&videoid=ch10031911113204553430&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",好享购物
-https://rtp.markc.top:58588/rtp/239.49.0.103:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="999" tvg-name="优购物" group-title="购物",优购物
-https://rtp.markc.top:58588/rtp/239.49.0.85:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="393" tvg-name="多机位7" group-title="其他",多机位7
-https://rtp.markc.top:58588/rtp/239.49.0.191:8000
 #EXTINF:-1 tvg-id="981" tvg-name="央广购物" group-title="购物",央广购物
 https://rtp.markc.top:58588/rtp/239.49.0.39:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="954" tvg-name="多画面导航" group-title="其他",多画面导航
@@ -334,29 +315,8 @@ https://rtp.markc.top:58588/rtp/239.49.8.73:8000
 https://rtp.markc.top:58588/rtp/239.49.8.34:8612?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="261" tvg-name="精彩推荐" group-title="其他",精彩推荐
 https://rtp.markc.top:58588/rtp/239.49.0.190:9458?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="392" tvg-name="多机位6" group-title="其他",多机位6
-https://rtp.markc.top:58588/rtp/239.49.0.251:8000
 #EXTINF:-1 tvg-id="352" tvg-name="省台直播室2" group-title="其他" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000005892744000014931340?citycode=0002&Playtype=1&programid=ch00000000000000000458&contentid=ch00000000000000000458&videoid=ch16111423005650045312&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",省台直播室2
 https://rtp.markc.top:58588/rtp/239.49.8.63:9354?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-id="932" tvg-name="4K" group-title="超高清",4K
 https://rtp.markc.top:58588/rtp/239.49.8.38:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="351" tvg-name="省台直播室1" group-title="其他" catchup="default" catchup-source="https://rtp.markc.top:58588/http/gslb.itv.jsinfo.net:6060/00000001/01000000000009526463000014931339?citycode=0002&Playtype=1&programid=ch00000000000000000457&contentid=ch00000000000000000457&videoid=ch16111422345891090156&recommendtype=0&boid=001&terminalflag=1&profilecode=&playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",省台直播室1
-https://rtp.markc.top:58588/rtp/239.49.8.151:6000
-#EXTINF:-1 tvg-id="391" tvg-name="多机位5" group-title="其他",多机位5
-https://rtp.markc.top:58588/rtp/239.49.8.69:9384
-#EXTINF:-1 tvg-id="825" tvg-name="江苏省城市足球联赛6" group-title="江苏",江苏省城市足球联赛6
-https://rtp.markc.top:58588/rtp/239.49.8.101:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="820" tvg-name="江苏省城市足球联赛1" group-title="江苏",江苏省城市足球联赛1
-https://rtp.markc.top:58588/rtp/239.49.8.96:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="823" tvg-name="江苏省城市足球联赛4" group-title="江苏",江苏省城市足球联赛4
-https://rtp.markc.top:58588/rtp/239.49.8.99:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="821" tvg-name="江苏省城市足球联赛2" group-title="江苏",江苏省城市足球联赛2
-https://rtp.markc.top:58588/rtp/239.49.8.97:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="824" tvg-name="江苏省城市足球联赛5" group-title="江苏",江苏省城市足球联赛5
-https://rtp.markc.top:58588/rtp/239.49.8.100:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="822" tvg-name="江苏省城市足球联赛3" group-title="江苏",江苏省城市足球联赛3
-https://rtp.markc.top:58588/rtp/239.49.8.98:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="828" tvg-name="羽毛球直播" group-title="其他",羽毛球直播
-https://rtp.markc.top:58588/rtp/239.49.8.104:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-id="829" tvg-name="篮球世界" group-title="体育",篮球世界
-https://rtp.markc.top:58588/rtp/239.49.8.105:8000?fcc=180.100.72.185:15970
+
